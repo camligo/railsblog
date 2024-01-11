@@ -78,7 +78,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 # production:
-#   <<: *default
-#   database: railsblog_production
-#   username: railsblog
-#   password: <%= ENV["RAILSBLOG_DATABASE_PASSWORD"] %>
+  <<: *default
+  database: railsblog_production
+  username: railsblog
+  password: <%= ENV["RAILSBLOG_DATABASE_PASSWORD"] %>
