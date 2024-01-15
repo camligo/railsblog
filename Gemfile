@@ -76,3 +76,5 @@ gem "tailwindcss-rails", "~> 2.2"
 gem "foreman", "~> 0.87.2"
 
 gem "aws-sdk-s3", require: false
+
+gem "pagy", "~> 6.4"
